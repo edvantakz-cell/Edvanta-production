@@ -1,0 +1,65 @@
+body {
+background: #0f172a;
+color: white;
+font-family: Arial;
+}
+
+.container {
+width: 600px;
+margin: auto;
+margin-top: 50px;
+}
+
+.card {
+background: #1e293b;
+padding: 20px;
+border-radius: 12px;
+}
+
+input, select, textarea {
+width: 100%;
+padding: 10px;
+margin: 5px 0;
+border-radius: 8px;
+border: 2px solid #334155;
+background: #0f172a;
+color: white;
+}
+
+input[type=password] {
+border: 2px solid #64748b;
+}
+
+input[type=password]:focus {
+border-color: #22c55e;
+}
+
+.btn-green {
+background: #22c55e;
+padding: 10px;
+border: none;
+border-radius: 8px;
+color: black;
+}
+
+.btn-blue {
+background: #3b82f6;
+padding: 10px;
+border: none;
+border-radius: 8px;
+color: white;
+}
+
+.btn-orange {
+background: #f59e0b;
+padding: 10px;
+border: none;
+border-radius: 8px;
+}
+
+.btn-red {
+background: #ef4444;
+padding: 10px;
+border: none;
+border-radius: 8px;
+}

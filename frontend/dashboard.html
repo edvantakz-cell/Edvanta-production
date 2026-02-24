@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Личный кабинет</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>Личный кабинет</h1>
+
+<div class="menu">
+<button class="btn-blue">Курсы</button>
+<button class="btn-blue">Уроки</button>
+<button class="btn-blue">Шаблоны</button>
+<button class="btn-orange" onclick="subscribe()">Подписка 5000 тг</button>
+<button class="btn-red" onclick="logout()">Выйти</button>
+</div>
+
+<div class="card">
+
+<h2>Генератор урока</h2>
+
+<select id="class_name">
+<option>1 класс</option>
+<option>5 класс</option>
+<option>7 класс</option>
+<option>10 класс</option>
+</select>
+
+<input id="subject" placeholder="Предмет">
+<input id="topic" placeholder="Тема урока">
+<textarea id="extra_prompt" placeholder="Дополнительный промт"></textarea>
+
+<label><input type="checkbox" id="sor"> СОР/СОЧ</label>
+
+<button class="btn-green" onclick="generate()">Сгенерировать</button>
+
+<div id="result"></div>
+
+</div>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>

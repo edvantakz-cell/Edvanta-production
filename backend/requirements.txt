@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+SQLAlchemy
+psycopg2-binary
+passlib[bcrypt]
+python-jose
+pydantic
+python-docx
+python-pptx
+openai
+python-multipart
